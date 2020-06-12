@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34C3C325056F438F4BF74A33 /* Pods_YFMultiTabPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADDDE6E3BCB9F5D9573D38E /* Pods_YFMultiTabPage.framework */; };
 		B01FFBFD2492003A00C79E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFBFC2492003A00C79E53 /* AppDelegate.swift */; };
 		B01FFBFF2492003A00C79E53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFBFE2492003A00C79E53 /* SceneDelegate.swift */; };
 		B01FFC012492003A00C79E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC002492003A00C79E53 /* ViewController.swift */; };
 		B01FFC042492003A00C79E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01FFC022492003A00C79E53 /* Main.storyboard */; };
 		B01FFC062492003C00C79E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B01FFC052492003C00C79E53 /* Assets.xcassets */; };
 		B01FFC092492003C00C79E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01FFC072492003C00C79E53 /* LaunchScreen.storyboard */; };
+		B01FFC3A2492006100C79E53 /* String+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC122492006000C79E53 /* String+Utility.swift */; };
+		B01FFC3B2492006100C79E53 /* UIView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC132492006000C79E53 /* UIView+Utility.swift */; };
+		B01FFC462492006100C79E53 /* ZFTitleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC2F2492006000C79E53 /* ZFTitleBar.swift */; };
+		B01FFC472492006100C79E53 /* ZFMultipleTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC312492006000C79E53 /* ZFMultipleTabView.swift */; };
+		B01FFC482492006100C79E53 /* ZFMultipleTabViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC322492006000C79E53 /* ZFMultipleTabViewConfig.swift */; };
+		B01FFC492492006100C79E53 /* ZFMultiTabChildPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC352492006100C79E53 /* ZFMultiTabChildPageViewController.swift */; };
+		B01FFC4A2492006100C79E53 /* ZFMultiTabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC362492006100C79E53 /* ZFMultiTabPageViewController.swift */; };
+		B01FFC4B2492006100C79E53 /* ZFCommonTabItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC382492006100C79E53 /* ZFCommonTabItemCell.swift */; };
+		B01FFC4C2492006100C79E53 /* ZFCommonTabScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC392492006100C79E53 /* ZFCommonTabScrollView.swift */; };
+		B01FFC4F2492038000C79E53 /* YFMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC4E2492038000C79E53 /* YFMainViewController.swift */; };
+		B01FFC5124920BBF00C79E53 /* YFCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC5024920BBF00C79E53 /* YFCollectionHeaderView.swift */; };
+		B01FFC53249212B000C79E53 /* YFChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC52249212B000C79E53 /* YFChildViewController.swift */; };
+		B01FFC552492280C00C79E53 /* YFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01FFC542492280C00C79E53 /* YFCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94BEEA35A375F20053F20F84 /* Pods-YFMultiTabPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFMultiTabPage.release.xcconfig"; path = "Target Support Files/Pods-YFMultiTabPage/Pods-YFMultiTabPage.release.xcconfig"; sourceTree = "<group>"; };
 		B01FFBF92492003A00C79E53 /* YFMultiTabPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFMultiTabPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01FFBFC2492003A00C79E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B01FFBFE2492003A00C79E53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,21 @@
 		B01FFC052492003C00C79E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B01FFC082492003C00C79E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B01FFC0A2492003C00C79E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01FFC122492006000C79E53 /* String+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Utility.swift"; sourceTree = "<group>"; };
+		B01FFC132492006000C79E53 /* UIView+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utility.swift"; sourceTree = "<group>"; };
+		B01FFC2F2492006000C79E53 /* ZFTitleBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFTitleBar.swift; sourceTree = "<group>"; };
+		B01FFC312492006000C79E53 /* ZFMultipleTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFMultipleTabView.swift; sourceTree = "<group>"; };
+		B01FFC322492006000C79E53 /* ZFMultipleTabViewConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFMultipleTabViewConfig.swift; sourceTree = "<group>"; };
+		B01FFC352492006100C79E53 /* ZFMultiTabChildPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFMultiTabChildPageViewController.swift; sourceTree = "<group>"; };
+		B01FFC362492006100C79E53 /* ZFMultiTabPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFMultiTabPageViewController.swift; sourceTree = "<group>"; };
+		B01FFC382492006100C79E53 /* ZFCommonTabItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFCommonTabItemCell.swift; sourceTree = "<group>"; };
+		B01FFC392492006100C79E53 /* ZFCommonTabScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFCommonTabScrollView.swift; sourceTree = "<group>"; };
+		B01FFC4E2492038000C79E53 /* YFMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFMainViewController.swift; sourceTree = "<group>"; };
+		B01FFC5024920BBF00C79E53 /* YFCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFCollectionHeaderView.swift; sourceTree = "<group>"; };
+		B01FFC52249212B000C79E53 /* YFChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFChildViewController.swift; sourceTree = "<group>"; };
+		B01FFC542492280C00C79E53 /* YFCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFCollectionViewCell.swift; sourceTree = "<group>"; };
+		DADDDE6E3BCB9F5D9573D38E /* Pods_YFMultiTabPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFMultiTabPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA3637965F10393C6CB8971 /* Pods-YFMultiTabPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFMultiTabPage.debug.xcconfig"; path = "Target Support Files/Pods-YFMultiTabPage/Pods-YFMultiTabPage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C3C325056F438F4BF74A33 /* Pods_YFMultiTabPage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93B0B217CBF1956D30E18A06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDA3637965F10393C6CB8971 /* Pods-YFMultiTabPage.debug.xcconfig */,
+				94BEEA35A375F20053F20F84 /* Pods-YFMultiTabPage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5ED6C32441FFC474ADDB3F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADDDE6E3BCB9F5D9573D38E /* Pods_YFMultiTabPage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B01FFBF02492003A00C79E53 = {
 			isa = PBXGroup;
 			children = (
 				B01FFBFB2492003A00C79E53 /* YFMultiTabPage */,
 				B01FFBFA2492003A00C79E53 /* Products */,
+				93B0B217CBF1956D30E18A06 /* Pods */,
+				A5ED6C32441FFC474ADDB3F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +106,11 @@
 		B01FFBFB2492003A00C79E53 /* YFMultiTabPage */ = {
 			isa = PBXGroup;
 			children = (
+				B01FFC332492006100C79E53 /* MainPage */,
+				B01FFC302492006000C79E53 /* Tab */,
+				B01FFC2E2492006000C79E53 /* Title */,
+				B01FFC102492006000C79E53 /* Utility */,
+				B01FFC4D2492036E00C79E53 /* VC */,
 				B01FFBFC2492003A00C79E53 /* AppDelegate.swift */,
 				B01FFBFE2492003A00C79E53 /* SceneDelegate.swift */,
 				B01FFC002492003A00C79E53 /* ViewController.swift */,
@@ -67,6 +122,78 @@
 			path = YFMultiTabPage;
 			sourceTree = "<group>";
 		};
+		B01FFC102492006000C79E53 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC112492006000C79E53 /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B01FFC112492006000C79E53 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC122492006000C79E53 /* String+Utility.swift */,
+				B01FFC132492006000C79E53 /* UIView+Utility.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B01FFC2E2492006000C79E53 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC2F2492006000C79E53 /* ZFTitleBar.swift */,
+			);
+			path = Title;
+			sourceTree = "<group>";
+		};
+		B01FFC302492006000C79E53 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC312492006000C79E53 /* ZFMultipleTabView.swift */,
+				B01FFC322492006000C79E53 /* ZFMultipleTabViewConfig.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		B01FFC332492006100C79E53 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC342492006100C79E53 /* Controller */,
+				B01FFC372492006100C79E53 /* View */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		B01FFC342492006100C79E53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC352492006100C79E53 /* ZFMultiTabChildPageViewController.swift */,
+				B01FFC362492006100C79E53 /* ZFMultiTabPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B01FFC372492006100C79E53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC382492006100C79E53 /* ZFCommonTabItemCell.swift */,
+				B01FFC392492006100C79E53 /* ZFCommonTabScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B01FFC4D2492036E00C79E53 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B01FFC4E2492038000C79E53 /* YFMainViewController.swift */,
+				B01FFC5024920BBF00C79E53 /* YFCollectionHeaderView.swift */,
+				B01FFC52249212B000C79E53 /* YFChildViewController.swift */,
+				B01FFC542492280C00C79E53 /* YFCollectionViewCell.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B01FFC0D2492003C00C79E53 /* Build configuration list for PBXNativeTarget "YFMultiTabPage" */;
 			buildPhases = (
+				BA7CD538D57F4251A54896F8 /* [CP] Check Pods Manifest.lock */,
 				B01FFBF52492003A00C79E53 /* Sources */,
 				B01FFBF62492003A00C79E53 /* Frameworks */,
 				B01FFBF72492003A00C79E53 /* Resources */,
+				9417A14AB7D0759A058B51CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +262,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9417A14AB7D0759A058B51CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YFMultiTabPage/Pods-YFMultiTabPage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YFMultiTabPage/Pods-YFMultiTabPage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YFMultiTabPage/Pods-YFMultiTabPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7CD538D57F4251A54896F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YFMultiTabPage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B01FFBF52492003A00C79E53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01FFC5124920BBF00C79E53 /* YFCollectionHeaderView.swift in Sources */,
 				B01FFC012492003A00C79E53 /* ViewController.swift in Sources */,
+				B01FFC3B2492006100C79E53 /* UIView+Utility.swift in Sources */,
+				B01FFC482492006100C79E53 /* ZFMultipleTabViewConfig.swift in Sources */,
+				B01FFC53249212B000C79E53 /* YFChildViewController.swift in Sources */,
+				B01FFC462492006100C79E53 /* ZFTitleBar.swift in Sources */,
+				B01FFC4C2492006100C79E53 /* ZFCommonTabScrollView.swift in Sources */,
+				B01FFC3A2492006100C79E53 /* String+Utility.swift in Sources */,
 				B01FFBFD2492003A00C79E53 /* AppDelegate.swift in Sources */,
+				B01FFC492492006100C79E53 /* ZFMultiTabChildPageViewController.swift in Sources */,
+				B01FFC4F2492038000C79E53 /* YFMainViewController.swift in Sources */,
+				B01FFC552492280C00C79E53 /* YFCollectionViewCell.swift in Sources */,
+				B01FFC4A2492006100C79E53 /* ZFMultiTabPageViewController.swift in Sources */,
+				B01FFC472492006100C79E53 /* ZFMultipleTabView.swift in Sources */,
+				B01FFC4B2492006100C79E53 /* ZFCommonTabItemCell.swift in Sources */,
 				B01FFBFF2492003A00C79E53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,35 +466,41 @@
 		};
 		B01FFC0E2492003C00C79E53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA3637965F10393C6CB8971 /* Pods-YFMultiTabPage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SPX825CED4;
 				INFOPLIST_FILE = YFMultiTabPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Oil.management.YFMultiTabPage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YFMultiTabPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B01FFC0F2492003C00C79E53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BEEA35A375F20053F20F84 /* Pods-YFMultiTabPage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SPX825CED4;
 				INFOPLIST_FILE = YFMultiTabPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Oil.management.YFMultiTabPage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YFMultiTabPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
